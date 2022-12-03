@@ -4,6 +4,8 @@
     package="com.example.appharrypotter">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <uses-feature
         android:name="android.hardware.sensor.accelerometer"
@@ -21,6 +23,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppHarryPotter"
         tools:targetApi="31">
+        <activity
+            android:name=".resultcontato"
+            android:exported="false" />
+        <activity
+            android:name=".contato"
+            android:exported="false" />
         <activity
             android:name=".filme7"
             android:exported="false" />

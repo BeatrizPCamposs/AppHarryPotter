@@ -79,6 +79,7 @@
     <string name="btnhomee">HOME</string>
     <string name="btnlocation">LOCALIZAÇÃO</string>
     <string name="btnsair">SAIR</string>
+    <string name="btncontato">CONTATO</string>
 
     //Tela de Localização
     <string name="escola">ﾠﾠﾠﾠHOGWARTS...</string>
@@ -87,4 +88,14 @@
     <string name="local">ﾠﾠﾠﾠPara muitos fãs de Harry Potter, a localização do cenário que se passa a saga, ainda é um grande mistério, entretanto, agora esse mistério foi desvendado! Clique no botão abaixo e receba a localização em primeira mão.</string>
     <string name="acessarloc">ACESSAR LOCALIZAÇÃO</string>
 
+    //Tela de contato
+    <string name="txt1">ﾠﾠﾠNOME:</string>
+    <string name="txt2">ﾠﾠﾠE-MAIL:</string>
+    <string name="txt3">ﾠﾠﾠCOMENTÁRIO:</string>
+    <string name="btnenviar">ENVIAR</string>
+    <string name="btnvoltar">VOLTAR</string>
+    <string name="btnexibir">EXIBIR</string>
+
+    //Tela de resultado de mensagens da tela contato
+    <string name="txtmensagem">MENSAGEM ENVIADA COM SUCESSO!</string>
 </resources>

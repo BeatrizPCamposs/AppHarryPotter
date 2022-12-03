@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundooo"
+    tools:context=".resultcontato">
+
+    <Button
+        android:id="@+id/btnhome17"
+        android:layout_width="70dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:background="#00FFFFFF"
+        android:onClick="btnmenu"
+        app:icon="@android:drawable/ic_menu_sort_by_size"
+        app:iconSize="40dp"
+        app:iconTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgtopo16"
+        android:layout_width="159dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="126dp"
+        android:elevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoharry" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="222dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:elevation="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtopo16"
+        app:srcCompat="@drawable/mensagem" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="357dp"
+        android:layout_height="506dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12dp"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtopo16">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="536dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="11dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/txtmensagem"
+                android:textColor="@color/Dourado"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/txt1"
+                android:textColor="@color/Dourado"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/exibenome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/txt2"
+                android:textColor="@color/Dourado"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/exibeemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/txt3"
+                android:textColor="@color/Dourado"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/exibecoment"
+                android:layout_width="match_parent"
+                android:layout_height="129dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/btnenviar2"
+                android:layout_width="337dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/Dourado"
+                android:fontFamily="sans-serif-black"
+                android:onClick="btnhome"
+                android:text="@string/btnvoltar"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

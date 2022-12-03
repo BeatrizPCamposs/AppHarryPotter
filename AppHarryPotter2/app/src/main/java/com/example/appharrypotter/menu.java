@@ -34,4 +34,10 @@ public class menu extends AppCompatActivity {
         Intent intent = new Intent(this,localizacao.class);
         startActivity(intent);
     }
+
+    //Acesso a tela de contato
+    public void btncontato(View view) {
+        Intent intent = new Intent(this,contato.class);
+        startActivity(intent);
+    }
 }
