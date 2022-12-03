@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundooo"
+    tools:context=".menu">
+
+    <ImageView
+        android:id="@+id/imgtopo2"
+        android:layout_width="159dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="126dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnhome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoharry" />
+
+    <Button
+        android:id="@+id/btnhome2"
+        android:layout_width="70dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="1dp"
+        android:background="#00FFFFFF"
+        android:onClick="btnmenu"
+        app:icon="@android:drawable/ic_menu_sort_by_size"
+        app:iconSize="40dp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toStartOf="@+id/imgtopo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="353dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="29dp"
+        android:backgroundTint="@color/Dourado"
+        android:fontFamily="sans-serif-black"
+        android:onClick="btnhomee"
+        android:text="@string/btnhomee"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtopo2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="353dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="29dp"
+        android:backgroundTint="@color/Dourado"
+        android:fontFamily="sans-serif-black"
+        android:onClick="btnlocal"
+        android:text="@string/btnlocation"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/btnsair"
+        android:layout_width="353dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="215dp"
+        android:backgroundTint="@color/Dourado"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btnsair"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

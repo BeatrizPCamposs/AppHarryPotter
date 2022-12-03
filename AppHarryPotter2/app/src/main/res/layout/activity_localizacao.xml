@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/preto"
+    android:onClick="verMapa"
+    tools:context=".localizacao">
+
+    <ImageView
+        android:id="@+id/imgtopo7"
+        android:layout_width="159dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="126dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnhome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoharry" />
+
+    <Button
+        android:id="@+id/btnhome7"
+        android:layout_width="70dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="1dp"
+        android:background="#00FFFFFF"
+        android:onClick="btnhome"
+        app:icon="@android:drawable/ic_menu_sort_by_size"
+        app:iconSize="40dp"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toStartOf="@+id/imgtopo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="410dp"
+        android:layout_height="545dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnlink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="415dp"
+                android:layout_height="251dp"
+                app:srcCompat="@drawable/fundolocation" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/escola"
+                android:textSize="16sp" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="121dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/resumoescola"
+                android:textAlignment="gravity"
+                android:textColor="#8CFFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/loc"
+                android:textSize="16sp" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/local"
+                android:textAlignment="gravity"
+                android:textColor="#8CFFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnlink"
+        android:layout_width="365dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="55dp"
+        android:backgroundTint="@color/Dourado"
+        android:fontFamily="sans-serif-black"
+        android:onClick="verMapa"
+        android:text="@string/acessarloc"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
