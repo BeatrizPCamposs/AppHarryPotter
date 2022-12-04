@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundooo"
+    tools:context=".cadastro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="30dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="-110dp">
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="312dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/logoharry" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView22"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="#959090"
+            android:hint="Nome de usuário"
+            android:textColorHint="#959090" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#959090"
+            android:hint="Senha"
+            android:textColorHint="#959090" />
+
+        <EditText
+            android:id="@+id/repassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#959090"
+            android:hint="Confirmar Senha"
+            android:textColorHint="#959090" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnsignup"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/repassword"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="60dp"
+
+            android:backgroundTint="@color/Dourado"
+            android:fontFamily="sans-serif-black"
+            android:text="Registrar"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnsignup"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:background="#00FFFFFF"
+            android:text="Já sou cadastrado !"
+            android:textAlignment="center"
+
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView9"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/cadas"
+            android:textColor="@color/Dourado"
+            android:textSize="35dp" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

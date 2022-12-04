@@ -98,4 +98,10 @@
 
     //Tela de resultado de mensagens da tela contato
     <string name="txtmensagem">MENSAGEM ENVIADA COM SUCESSO!</string>
+
+    //Tela de cadastro
+    <string name="cadas">CADASTRE-SE!</string>
+
+    //Tela de login
+    <string name="log">LOGIN:</string>
 </resources>

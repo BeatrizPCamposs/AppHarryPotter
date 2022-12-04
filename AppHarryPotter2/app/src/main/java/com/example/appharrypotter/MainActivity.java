@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnhome(){
-        Intent intent = new Intent(this,Home.class);
+        Intent intent = new Intent(this,cadastro.class);
         startActivity(intent);
     }
 }

@@ -24,6 +24,12 @@
         android:theme="@style/Theme.AppHarryPotter"
         tools:targetApi="31">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".cadastro"
+            android:exported="false" />
+        <activity
             android:name=".resultcontato"
             android:exported="false" />
         <activity
