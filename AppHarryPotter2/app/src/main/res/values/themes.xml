@@ -13,4 +13,19 @@
         <item name="android:statusBarColor" tools:targetApi="l">@color/Dourado</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- Dark mode com Shared Preferences -->
+
+    <!-- Screen background if Dark mode on -->
+    <style name="screen">
+        <item name="android:background">@drawable/fundooo</item>
+    </style>
+
+    <style name="texto">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="textoo">
+        <item name="android:textColorHint">#959090</item>
+    </style>
 </resources>
