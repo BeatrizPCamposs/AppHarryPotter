@@ -16,3 +16,5 @@ Todas as activities possuem um button no canto superior da tela, direcionando o 
 - Contato: nela o usuário pode enviar uma mensagem de sugestão ou crítica sobre a aplicação. Ela apresenta uma tela de inserção de dados, onde é solicitado que o usuário informe seu nome, e-mail (para que possa receber uma resposta) e deixe sua mensagem. Ao aperta no botão enviar, suas respostas serão armazenadas internamente na aplicação com o uso do Saved Instance, além de possuir um button "exibir”, que permite que o usuário visualize o que foi armazenado.
 
 Outro ponto relevante a ser destacado é o uso do Shared Preferences no salvamento do mode Night and Light, que pode ser visualizado na página de cadastro, sendo apresentado por um switch button, que permite o usuário a escolher o modo que prefere.
+
+Link de acesso ao vídeo explicando o funcionamento da aplicação: https://youtu.be/7GsugnPouL0 
